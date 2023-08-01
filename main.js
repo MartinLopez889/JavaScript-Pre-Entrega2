@@ -27,7 +27,7 @@ console.table(lista)
 
 //Ahora creo un filtro a través de una función, para buscar cuáles son los alumnos que están Presentes o Ausentes.
 let filtro = lista
-
+/* poner en consola la f(x) */
 function buscarEstado(){
     let estado = prompt("Ingrese 'presente' o 'ausente' para conocer el listado de alumnos")
     let resultado = filtro.filter((x)=> x.estado.includes(estado))
